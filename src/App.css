@@ -33,10 +33,10 @@ body {
     }
 
     .home-main-ctn {
-        background-image: url("../public/images/img0.jpg");
+        background-image: url("../images/img0.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 87vh;
         color: white;
         background-color: ivory;
     }
@@ -46,7 +46,7 @@ body {
 
     .contact-main-ctn {
         background-color: ivory;
-        height: 100vh;
+        height: 87vh;
         text-align: center;
     }
     .contact-method-ctn {
@@ -67,5 +67,6 @@ body {
     .google-form {
         height: 60vh;
         width: 75vw;
+        border: 0;
     }
 }

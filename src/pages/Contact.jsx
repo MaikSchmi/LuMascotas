@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="contact-main-ctn">
       <h1>Contacto</h1>
-      <p>Contáctame a través de un de los métodos abajo!</p>
+      <p>Contáctame a través de un de los siguientes métodos!</p>
       <div className="contact-method-ctn">
         <div>
           <ul>
@@ -14,8 +14,7 @@ function Contact() {
           </ul>
         </div>
         <div>
-          {/* <iframe className="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeMSDasy1fVFmA6jfgYagmY6JQVDLC0i6ntQRJRc_ajdJRrVQ/viewform?embedded=true" frameborder="0"></iframe> */}
-          <iframe className="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdIrs3XqSEr3kXcU2DaFuKkeZ6RQZDJE245ZJrw_jUecnuYEw/viewform?embedded=true" frameBorder="0"></iframe>
+          <iframe className="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdIrs3XqSEr3kXcU2DaFuKkeZ6RQZDJE245ZJrw_jUecnuYEw/viewform?embedded=true"></iframe>
         </div>
       </div>
     </div>
