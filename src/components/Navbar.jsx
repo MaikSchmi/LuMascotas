@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <>
     <nav className="nav-main-ctn">
-      <ul>
-        <li><img src="../images/logo.png" className="nav-logo" /></li>
-      </ul>
-      <ul>
-        <Link to="/" className="nav-link"><li>Inicio</li></Link>
+      <div className="nav-left">
+        <p><Link to="/"><img src="../images/logo.png" className="nav-logo" /></Link></p>
+      </div>
+      <ul className="nav-right">
+        <Link to="/process" className="nav-link"><li>El Proceso</li></Link>
         <Link to="/about-me" className="nav-link"><li>Sobre Mi</li></Link>
         <Link to="/clients" className="nav-link"><li>Mis Clientes</li></Link>
         <Link to="/contact" className="nav-link"><li>Contacto</li></Link>

@@ -9,15 +9,17 @@ body {
     .nav-main-ctn {
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        height: 100px;
-
+        justify-content: space-around;
+        font-size: 16px;
     }
-    .nav-main-ctn ul {
-        display: flex;
+    .nav-left {
         list-style-type: none;
-        gap: 20px;
+    }
+    .nav-right {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        list-style-type: none;
     }
     .nav-link {
         text-decoration: none;
@@ -29,19 +31,31 @@ body {
         border-radius: 20px;
     }
     .nav-logo {
-        width: 75px;
+        height: 65px;
     }
 
     .home-main-ctn {
-        background-image: url("../images/img0.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 87vh;
+        height: 100vh;
         color: white;
         background-color: ivory;
     }
     .home-main-ctn h1 {
         text-align: center;
+    }
+
+    #about {
+        padding: 5px;
+        background-color: ivory;
+        height: 100vh;
+    }
+    .about-img-ctn {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .about-img {
+        width: 150px;
+        border-radius: 50%;
     }
 
     .contact-main-ctn {
@@ -69,4 +83,5 @@ body {
         width: 75vw;
         border: 0;
     }
+
 }
