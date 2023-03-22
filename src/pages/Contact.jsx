@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Contact() {
   return (
     <div className="contact-main-ctn">
-      <h1>Contacto</h1>
+      <h2>Contacto</h2>
       <p>Contáctame a través de un de los siguientes métodos!</p>
       <div className="contact-method-ctn">
         <div>

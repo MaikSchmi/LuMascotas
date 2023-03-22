@@ -25,6 +25,8 @@ body {
         text-decoration: none;
         color: black;
         padding: 7px 4px;
+        border: 1px white solid;
+        border-radius: 20px;
     }
     .nav-link:hover {
         border: 1px black solid;
@@ -36,11 +38,41 @@ body {
 
     .home-main-ctn {
         height: 100vh;
-        color: white;
+        padding: 20px;
         background-color: ivory;
     }
-    .home-main-ctn h1 {
+    .home-main-ctn h2 {
+        margin-top: 0;
         text-align: center;
+    }
+    .home-iframe-ctn {
+        display: flex;
+        justify-content: center;
+    }
+    .home-link-ctn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .home-link {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 15px 30px;
+        width: 160px;
+        border: 2px solid black;
+        border-radius: 16px;
+        background-color: gold;
+        animation-duration: 1s;
+    }
+    .home-link:hover {
+        bottom: 10px;
+        border-radius: 16px;
+        color: black;
+        background-color: rgb(255, 232, 100);
+        box-shadow: 4px 4px;
     }
 
     #process {
@@ -54,15 +86,21 @@ body {
     }
 
     #reviews {
-        padding: 10px;
+        padding: 20px;
         background-color: ivory;
         height: 100vh;
     }
+    #reviews h2 {
+        margin-top: 0;
+    }
 
     #about {
-        padding: 5px;
+        padding: 20px;
         background-color: ivory;
         height: 100vh;
+    }
+    #about h2 {
+        margin-top: 0;
     }
     .about-img-ctn {
         display: flex;
@@ -81,8 +119,12 @@ body {
 
     .contact-main-ctn {
         background-color: ivory;
-        height: 87vh;
+        height: 100vh;
         text-align: center;
+        padding: 20px;
+    }
+    .contact-main-ctn h2 {
+        margin-top: 0;
     }
     .contact-method-ctn {
         display: flex;

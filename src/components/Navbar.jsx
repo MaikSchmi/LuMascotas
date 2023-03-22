@@ -9,10 +9,10 @@ function Navbar() {
         <p><Link to="/"><img src="../images/logo.png" className="nav-logo" /></Link></p>
       </div>
       <ul className="nav-right">
-        <Link to="/process" className="nav-link"><li>El Proceso</li></Link>
-        <Link to="/about-me" className="nav-link"><li>Sobre Mi</li></Link>
-        <Link to="/reviews" className="nav-link"><li>Reseñas</li></Link>
-        <Link to="/contact" className="nav-link"><li>Contacto</li></Link>
+        <Link to="/proceso" className="nav-link"><li>El Proceso</li></Link>
+        <Link to="/sobre-mi" className="nav-link"><li>Sobre Mi</li></Link>
+        <Link to="/resenas" className="nav-link"><li>Reseñas</li></Link>
+        <Link to="/contacto" className="nav-link"><li>Contacto</li></Link>
       </ul>
     </nav>
     <Outlet />
