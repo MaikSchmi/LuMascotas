@@ -15,7 +15,7 @@ function Home() {
         <h4>¿Qué estás buscando?</h4>
         <div className="home-link-ctn">
           <Link to="/sobre-mi" className="home-link">Sobre Mi</Link>
-          <Link to="/proceso" className="home-link">El Proceso</Link>
+          <Link to="/proceso" className="home-link">¿Cómo funciona?</Link>
           <Link to="/resenas" className="home-link">Reseñas</Link>
           <Link to="/contacto" className="home-link">Contacto</Link>
         </div>

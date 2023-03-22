@@ -6,12 +6,17 @@ function AboutMe() {
     <div id="about">
       <div>
         <h2 className="text-center">Sobre Mi</h2>
-        <p>Mi nombre es Luciana y llevo 6 años viviendo en Barcelona. Soy Bióloga de formación y tengo un máster en Educación.</p>
-        <p>Trabajé durante muchos años con educación ambiental porque me encanta cuidar del medio ambiente y estar en contacto con la gente.</p>
+        <p className="text-center">Mi nombre es Luciana, soy brasileña y llegué a Barcelona en 2017. Soy bióloga de formación y tengo un máster en Educación.</p>
+        <p className="text-center">Trabajé durante muchos años con educación ambiental porque me encanta cuidar del medio ambiente y estar en contacto con la gente. Desde mis 15 años de edad, también actúo como voluntaria en refugios de animales.  </p>
+      </div>
+      <div className="about-me-img-ctn">
+        <img src="../images/img6.jpg" alt="" />
+        <img src="../images/img7.jpg" alt="" />
+        <img src="../images/img0.jpg" alt="" />
       </div>
       <div>
-        <h2 className="text-center">Mis Gatos</h2>
-        <p>Cuando me mudé a Barcelona traje a mi gata, Fúria, y un par de años después adopté a mi segundo gato, Knödel de <Link to="https://www.degats.org/">DeGats</Link>. Luego vino mi tercer gato, Link, también de degats. Ahora tengo a tres gatitos rubios preciosos!</p>
+        <h2 className="text-center pt-5">Mis Gatos</h2>
+        <p className="text-center">Cuando me mudé a Barcelona traje a mi gata, Fúria, y un par de años después adopté a mi segundo gato, Knödel de <Link to="https://www.degats.org/">DeGats</Link>. Luego vino mi tercer gato, Link, también de DeGats. Ahora tengo a tres gatitos rubios preciosos!</p>
       </div>
       <div className="about-img-ctn">
         <div className="about-img-sub-ctn">
@@ -28,12 +33,12 @@ function AboutMe() {
         </div>
       </div>
       <div>
-        <p>Amo a los animales así que decidí cuidar las mascotas de otras personas, además de mi trabajo como voluntaria en el refugio de DeGats, para poder dedicar mi tiempo a hacer algo que me apasiona.</p>
-        <p>Si necesitas alguien que cuide a tu gato, perro, pájaro, hámster o cualquier otro bichito, ¡no dudes escribirme!</p>
+        <p className="text-center">En Marzo de 2020, en plena pandemia, me di cuenta que no quería continuar trabajando en oficinas. Pensando en mi amor a los animales, decidí empezar mi propio negocio como canguro de mascotas. </p>
+        <p className="text-center">Si necesitas a alguien que cuide a tu gato, perro, pájaro, hámster o cualquier otro bichito, ¡no dudes en escribirme!</p>
       </div>
       <div>
         <h2 className="text-center">Ver Más</h2>
-        <p>Suígeme en mi <Link to="https://www.instagram.com/lu.mascotas/">Instagram profesional</Link>, donde también aparecerán fotos de tus gatos si trabajas conmigo, y también mi <Link to="https://www.instagram.com/insta_furia/">Instagram personal</Link> para ver más fotos de mis propios gatos!</p>
+        <p className="text-center">Suígeme en mi <Link to="https://www.instagram.com/lu.mascotas/">Instagram profesional</Link>, donde también aparecerán fotos de tus gatos si trabajas conmigo!</p>
       </div>
     </div>
   )

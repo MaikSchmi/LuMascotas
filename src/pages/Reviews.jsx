@@ -9,11 +9,11 @@ function Reviews() {
       <div>
         <Link to="https://www.instagram.com/stories/highlights/18102556177255428/?hl=de" className="text-center"><h3>Ver todas las reseñas en Instagram</h3></Link>
       </div>
-      <div>
-        <Carousel>
+      <div className="review-center-carousel">
+        <Carousel className="review-carousel-ctn">
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block review-carousel-image"
               src="../images/review0.png"
               alt="Review 0"
               style={{height: "75vh"}}
@@ -21,7 +21,7 @@ function Reviews() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block review-carousel-image"
               src="../images/review1.png"
               alt="Review 1"
               style={{height: "75vh"}}
@@ -29,7 +29,7 @@ function Reviews() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block review-carousel-image"
               src="../images/review2.png"
               alt="Review 2"
               style={{height: "75vh"}}
@@ -37,7 +37,7 @@ function Reviews() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block review-carousel-image"
               src="../images/review3.png"
               alt="Review 3"
               style={{height: "75vh"}}
@@ -45,7 +45,7 @@ function Reviews() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block review-carousel-image"
               src="../images/review4.png"
               alt="Review 4"
               style={{height: "75vh"}}
