@@ -11,7 +11,7 @@ function Navbar() {
       <ul className="nav-right">
         <Link to="/process" className="nav-link"><li>El Proceso</li></Link>
         <Link to="/about-me" className="nav-link"><li>Sobre Mi</li></Link>
-        <Link to="/clients" className="nav-link"><li>Mis Clientes</li></Link>
+        <Link to="/reviews" className="nav-link"><li>Reseñas</li></Link>
         <Link to="/contact" className="nav-link"><li>Contacto</li></Link>
       </ul>
     </nav>

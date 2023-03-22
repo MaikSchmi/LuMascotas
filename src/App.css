@@ -43,6 +43,22 @@ body {
         text-align: center;
     }
 
+    #process {
+        padding: 20px;
+        height: 100vh;
+        background-color: ivory;
+    }
+    #process h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #reviews {
+        padding: 10px;
+        background-color: ivory;
+        height: 100vh;
+    }
+
     #about {
         padding: 5px;
         background-color: ivory;
@@ -52,6 +68,11 @@ body {
         display: flex;
         justify-content: space-evenly;
         gap: 20px;
+    }
+    .about-img-sub-ctn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .about-img {
         width: 150px;
